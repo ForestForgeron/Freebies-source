@@ -1,0 +1,124 @@
+.header {
+  width: 100vw; }
+  .header__top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 85px; }
+  .header__nav {
+    top: 58px;
+    left: 455px; }
+  .header__authorization {
+    top: 45px;
+    right: 150px; }
+  .header__signIn {
+    color: #0b132a;
+    transition: color .4s; }
+    .header__signIn:hover {
+      color: #f53855; }
+  .header__signUp {
+    width: 150px;
+    height: 45px;
+    margin-left: 26px;
+    font-weight: 500;
+    color: #f53855;
+    border: 1px solid #f53855;
+    border-radius: 50px; }
+    .header__signUp:hover {
+      background: #f53855;
+      color: #fff; }
+  .header__content {
+    display: flex;
+    gap: 60px;
+    padding-left: 10%;
+    padding-right: 20px; }
+  .header__content-wrapper {
+    margin-top: 30px; }
+  .header__content-title {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #0b132a;
+    line-height: 140%; }
+  .header__content-text {
+    margin-bottom: 50px;
+    line-height: 30px; }
+  .header__content-img {
+    width: 42%;
+    height: 40%;
+    margin-right: 80px; }
+  .header__stats {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0;
+    gap: 16.7%;
+    width: 100%;
+    margin-top: 170px;
+    border-radius: 10px;
+    box-shadow: #0d1025; }
+  .header__stats-item {
+    position: relative;
+    display: flex;
+    gap: 36px; }
+    .header__stats-item:nth-child(-n + 2)::after {
+      content: "";
+      position: absolute;
+      left: 280px;
+      bottom: -37px;
+      height: 125px;
+      border: 2px solid #eeeff2; }
+  .header__stats-text {
+    display: flex;
+    flex-direction: column; }
+  .header__stats-name {
+    font-size: 20px;
+    line-height: 30px; }
+  .header__stats-number {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px; }
+
+@media screen and (max-width: 1260px) {
+  .header__stats-item:nth-child(-n + 2)::after {
+    content: none; }
+  .header__content {
+    flex-direction: column-reverse; }
+  .header__content-img {
+    width: 70%; } }
+
+@media screen and (max-width: 960px) {
+  .header__top {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; }
+  .header__nav {
+    margin-top: 60px; }
+  .header__logo {
+    width: 149px; }
+  .header__authorization {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px; }
+  .header__signIn {
+    font-size: 20px; }
+  .header__signUp {
+    width: 210px;
+    height: 70px;
+    margin: 0;
+    font-size: 21px; }
+  .header__content {
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 0; }
+  .header__content-img {
+    display: none; }
+  .header__stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0; }
+  .header__stats-item {
+    min-width: 183px; } }

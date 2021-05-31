@@ -1,0 +1,34 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  height: 230px;
+  padding: 30px;
+  border: 2px solid #ddd;
+  border-radius: 10px; }
+  .card__top {
+    display: flex;
+    justify-content: space-between; }
+  .card__person {
+    display: flex;
+    gap: 20px; }
+  .card__heading {
+    display: flex;
+    flex-direction: column;
+    width: 180px; }
+  .card__name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0b132a; }
+  .card__adress {
+    font-size: 14px;
+    line-height: 30px;
+    color: #4f5665; }
+  .card__rate {
+    display: flex;
+    align-items: center;
+    gap: 11px; }
+  .card__text {
+    color: #0b132a;
+    line-height: 30px; }

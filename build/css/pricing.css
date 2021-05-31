@@ -1,0 +1,73 @@
+.pricing {
+  margin-top: 126px;
+  padding-top: 80px;
+  background-color: #f6f6f6; }
+  .pricing__heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 50px; }
+  .pricing__description {
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 60px; }
+  .pricing__cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px; }
+  .pricing__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: border .4s; }
+  .pricing__card:hover {
+    border: 2px solid #f53838; }
+  .pricing__img {
+    margin-top: 80px;
+    margin-bottom: 30px; }
+  .pricing__title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0b132a; }
+  .pricing__list {
+    height: 190px;
+    margin-bottom: 50px; }
+  .pricing__list-item {
+    display: flex;
+    align-items: center;
+    gap: 25.6px; }
+  .pricing__list-icon {
+    width: 14px;
+    height: 10px; }
+  .pricing__list-text {
+    font-size: 14px;
+    line-height: 30px; }
+  .pricing__price {
+    font-size: 25px;
+    line-height: 30px; }
+  .pricing__btn {
+    width: 178px;
+    height: 45px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border: 2px solid #f53838;
+    border-radius: 50px;
+    color: #f53838;
+    font-weight: 700; }
+  .pricing__btn:hover {
+    background-color: #f53838;
+    color: #fff; }
+
+@media screen and (max-width: 960px) {
+  .pricing__cards {
+    flex-direction: column;
+    align-items: center; }
+  .pricing__card {
+    min-width: 330px; } }

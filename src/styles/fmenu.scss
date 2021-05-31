@@ -1,0 +1,31 @@
+.fmenu {
+  display: flex;
+  gap: 126px;
+
+  &__product {
+  }
+
+  &__title {
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+
+    color: #0b132a;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__product-list {
+    
+  }
+
+  &__engage-list {
+    
+  }
+}

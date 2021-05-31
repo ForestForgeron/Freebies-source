@@ -1,0 +1,140 @@
+/* Слайдер */
+.slick-slider {
+  min-width: 0;
+} /* Слайдер запущен */
+.slick-slider.slick-initialized {
+} /* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+} /* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+} /* Слайд активный (показывается) */
+.slick-slide.slick-active {
+} /* Слайд основной */
+.slick-slide.slick-current {
+} /* Слайд по центру */
+.slick-slide.slick-center {
+} /* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+} /* Стрелка влево */
+.slick-arrow.slick-prev {
+} /* Стрелка вправо */
+.slick-arrow.slick-next {
+} /* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+} /* Активная точка */
+.slick-dots li.slick-active {
+} /* Элемент точки */
+.slick-dots li button {
+}
+
+//our slider
+.slider {
+  //display: flex;
+  position: relative;
+  padding: 0 5% 204px;
+  width: 100%;
+  &__item {
+    width: 400px;
+  }
+}
+
+.slider .slick-slide {
+  width: 400px;
+}
+
+.slider .slick-slide.slick-current .card {
+  border: 2px solid #f53838;
+}
+.slider .slick-arrow {
+  position: absolute;
+  bottom: 180px;
+
+  width: 60px;
+  height: 60px;
+
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  font-size: 0;
+
+  z-index: 2;
+
+  background: url("/build/img/arrow-red.png") center no-repeat;
+}
+
+.slider .slick-arrow.slick-prev {
+  right: 230px;
+}
+
+.slider .slick-arrow.slick-prev:hover {
+  background-color: #f53838;
+  background-image: url("/build/img/arrow-white.png");
+
+  rotate: 180deg;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 150px;
+
+  rotate: 180deg;
+}
+
+.slider .slick-arrow.slick-next:hover {
+  background-color: #f53838;
+  background-image: url("/build/img/arrow-white.png");
+
+  rotate: 0deg;
+}
+
+.slider .slick-dots {
+  display: flex;
+  padding-top: 80px;
+
+  gap: 15px;
+}
+.slider .slick-dots li {
+} /* Активная точка */
+.slider .slick-dots li.slick-active {
+} /* Элемент точки */
+.slider .slick-dots li button {
+  width: 15px;
+  height: 15px;
+
+  font-size: 0;
+
+  background-color: #dde0e4;
+
+  border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button {
+  width: 45px;
+  height: 15px;
+
+  background-color: #f53838;
+
+  border-radius: 35px;
+}
+
+@media screen and(max-width: 1360px) {
+  .slick-track {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+}

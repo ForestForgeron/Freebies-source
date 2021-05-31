@@ -1,0 +1,18 @@
+.customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 0;
+  padding-top: 125px; }
+  .customers__heading {
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 50px;
+    color: #0b132a;
+    text-align: center; }
+  .customers__description {
+    margin-bottom: 60px;
+    text-align: center; }
+  .customers__card {
+    margin-right: 50px; }

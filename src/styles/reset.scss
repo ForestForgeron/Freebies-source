@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+p,
+ul,
+li,
+button,
+input,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+
+  font-weight: 400;
+  font-family: $main-font;
+  font-size: $main-f-size;
+  color: $main-color;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  line-height: 30px;
+
+  text-decoration: none;
+  color: #4F5665;
+
+  transition: color .4s ease-in-out;
+
+  &:hover {
+    color: #f53855;
+  }
+}
+
+button {
+  background-color: #fff;
+
+  transition:
+    background-color .4s ease-in-out,
+    color .4s ease-in-out,
+    border .4s ease-in-out,
+    box-shadow .4s ease-in-out;
+}
+
+ul {
+  list-style: none;
+}

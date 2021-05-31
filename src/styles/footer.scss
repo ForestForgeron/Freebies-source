@@ -1,0 +1,42 @@
+.footer {
+  position: relative;
+
+  display: flex;
+  gap: 250px;
+
+  max-height: 604px;
+  padding: 180px 10% 100px 10%;
+
+  background-color: #f8f8f8;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo {
+    width: 149px;
+    
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+
+  &__social-link {
+    
+  }
+
+  &__social-icon {
+    
+  }
+
+  &__copyright {
+    margin-left: 15px;
+
+    color: #afb5c0;
+  }
+}

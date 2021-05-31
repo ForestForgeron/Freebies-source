@@ -1,0 +1,40 @@
+.subscribe {
+  position: absolute;
+  left: 10%;
+  bottom: 475px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 380px;
+
+  
+  padding: 58.5px 70px;
+
+  border-radius: 10px;
+
+  background-color: #fff;
+  z-index: 2;
+
+  box-shadow: 0 -20px 50px -20px rgba(136, 134, 134, 0.35),
+  0 20px 50px -20px rgba(136, 134, 134, 0.35);
+
+  &__info {
+
+  }
+
+  &__heading {
+    font-size: 35px;
+    font-weight: 500;
+    color: #0b132a;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+
+  }
+
+  &__btn {
+
+  }
+}

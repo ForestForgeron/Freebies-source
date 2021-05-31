@@ -1,0 +1,13 @@
+.fmenu {
+  display: flex;
+  gap: 126px; }
+  .fmenu__title {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #0b132a; }
+  .fmenu__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; }
